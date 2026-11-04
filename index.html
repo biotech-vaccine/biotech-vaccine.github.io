@@ -75,7 +75,6 @@
     <!-- Sticky Navigation Header -->
     <header class="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-slate-200 shadow-sm transition-all duration-300">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
-            <!-- Logo -->
             <a href="#" class="flex items-center space-x-3 group">
                 <div class="w-11 h-11 rounded-xl bg-gradient-to-tr from-medical-800 via-medical-600 to-tealmed-500 flex items-center justify-center text-white shadow-md group-hover:scale-105 transition">
                     <i class="fa-solid fa-dna text-2xl animate-pulse"></i>
@@ -89,8 +88,8 @@
             <!-- Desktop Nav Links -->
             <nav class="hidden xl:flex items-center space-x-3 text-[10px] font-bold uppercase tracking-wider text-slate-600">
                 <a href="#mo-dau" class="hover:text-tealmed-600 transition py-1">Lời Mở Đầu</a>
-                <a href="#tong-quan" class="hover:text-tealmed-600 transition py-1">Bản Chất Phân Tử</a>
-                <a href="#uu-diem-chinh" class="hover:text-tealmed-600 transition py-1 text-tealmed-700">Ưu Điểm Chính</a>
+                <a href="#tong-quan" class="hover:text-tealmed-600 transition py-1">Nguyên Lý</a>
+                <a href="#uu-diem-chinh" class="hover:text-tealmed-600 transition py-1 text-tealmed-700">Ưu Điểm</a>
                 <a href="#lich-su" class="hover:text-tealmed-600 transition py-1">Lịch Sử</a>
                 <a href="#quy-trinh" class="hover:text-tealmed-600 transition py-1">Quy Trình 6 Bước</a>
                 <a href="#phan-loai" class="hover:text-tealmed-600 transition py-1">Phân Loại</a>
@@ -101,14 +100,12 @@
                 <a href="#trac-nghiem" class="hover:text-tealmed-600 transition py-1 text-tealmed-600 font-black">Trắc Nghiệm (15 Câu)</a>
             </nav>
 
-            <!-- CTA Button -->
             <div class="hidden sm:flex items-center space-x-3">
                 <a href="#trac-nghiem" class="px-4 py-2.5 text-xs font-bold tracking-wider text-white uppercase bg-tealmed-600 hover:bg-tealmed-700 rounded-lg shadow-md hover:shadow-tealmed-500/20 transition flex items-center gap-2">
                     <i class="fa-solid fa-graduation-cap"></i> Trắc nghiệm 15 câu
                 </a>
             </div>
 
-            <!-- Mobile Menu Button -->
             <button onclick="toggleMobileMenu()" class="xl:hidden p-2 text-slate-600 hover:text-medical-900 focus:outline-none">
                 <i id="menu-icon" class="fa-solid fa-bars text-2xl"></i>
             </button>
@@ -117,7 +114,7 @@
         <!-- Mobile Nav Menu -->
         <div id="mobile-menu" class="hidden xl:hidden bg-white border-b border-slate-200 px-4 pt-2 pb-6 space-y-2 text-xs font-semibold">
             <a href="#mo-dau" onclick="toggleMobileMenu()" class="block text-slate-700 hover:text-tealmed-600 py-1">1. Lời Mở Đầu & Trích Dẫn</a>
-            <a href="#tong-quan" onclick="toggleMobileMenu()" class="block text-slate-700 hover:text-tealmed-600 py-1">2. Tổng Quan & Bản Chất Phân Tử</a>
+            <a href="#tong-quan" onclick="toggleMobileMenu()" class="block text-slate-700 hover:text-tealmed-600 py-1">2. Nguyên Lý & Hệ Thống Biểu Hiện</a>
             <a href="#uu-diem-chinh" onclick="toggleMobileMenu()" class="block text-tealmed-700 hover:text-tealmed-600 py-1">3. Ưu Điểm Chính Cốt Lõi</a>
             <a href="#lich-su" onclick="toggleMobileMenu()" class="block text-slate-700 hover:text-tealmed-600 py-1">4. Lịch Sử Phát Triển (1970 - 2026)</a>
             <a href="#quy-trinh" onclick="toggleMobileMenu()" class="block text-slate-700 hover:text-tealmed-600 py-1">5. Quy Trình Sản Xuất 6 Bước Y Khoa</a>
@@ -135,7 +132,6 @@
         <div class="absolute inset-0 opacity-10 bg-[radial-gradient(#fff_1px,transparent_1px)] [background-size:20px_20px]"></div>
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
             <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
-                <!-- Text Left -->
                 <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
                     <div class="inline-flex items-center space-x-2 px-4 py-1.5 rounded-full bg-white/10 text-tealmed-400 font-semibold text-xs tracking-wider uppercase backdrop-blur-md border border-white/20">
                         <i class="fa-solid fa-atom text-tealmed-400"></i>
@@ -150,7 +146,7 @@
                     </p>
                     
                     <div class="pt-4 flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
-                        <a href="#mo-dau" class="w-full sm:w-auto px-8 py-4 bg-tealmed-500 hover:bg-tealmed-600 text-white font-bold rounded-xl shadow-lg hover:shadow-tealmed-500/30 transition text-center text-xs uppercase tracking-wider flex items-center justify-center gap-2">
+                        <a href="#mo-dau" class="w-full sm:w-auto px-8 py-4 bg-tealmed-500 hover:bg-tealmed-600 text-white font-bold rounded-xl shadow-lg transition text-center text-xs uppercase tracking-wider flex items-center justify-center gap-2">
                             <span>Khám phá báo cáo y khoa</span> <i class="fa-solid fa-arrow-down text-xs"></i>
                         </a>
                         <a href="#trac-nghiem" class="w-full sm:w-auto px-8 py-4 bg-white/10 hover:bg-white/20 text-white font-bold rounded-xl backdrop-blur-sm border border-white/20 transition text-center text-xs uppercase tracking-wider flex items-center justify-center gap-2">
@@ -159,7 +155,6 @@
                     </div>
                 </div>
 
-                <!-- Hero Image & Key Metrics -->
                 <div class="lg:col-span-5 flex justify-center">
                     <div class="relative w-full max-w-md">
                         <div class="absolute -inset-2 rounded-3xl bg-gradient-to-r from-tealmed-400 to-cyan-400 opacity-30 blur-2xl"></div>
@@ -281,7 +276,7 @@
                 </div>
             </div>
 
-            <!-- Detailed Comparison of Host Systems -->
+            <!-- Detailed Comparison of Host Systems (Duy nhất tại đây, không bị lặp ở các chương sau) -->
             <div class="bg-white rounded-2xl p-6 sm:p-8 border border-slate-200 shadow-sm mt-8">
                 <h3 class="text-lg font-bold text-slate-900 mb-6 flex items-center gap-2">
                     <i class="fa-solid fa-microscope text-tealmed-600"></i>
@@ -317,11 +312,11 @@
         </div>
     </section>
 
-    <!-- BỔ SUNG CHƯƠNG NỔI BẬT: Chương 3 - Ưu Điểm Chính -->
+    <!-- Chương 3: Ưu Điểm Chính -->
     <section id="uu-diem-chinh" class="py-20 bg-white border-b border-slate-200">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center max-w-3xl mx-auto mb-16">
-                <span class="text-xs font-black text-tealmed-600 uppercase tracking-widest block mb-1">Chương III (Bổ Sung)</span>
+                <span class="text-xs font-black text-tealmed-600 uppercase tracking-widest block mb-1">Chương III</span>
                 <h2 class="text-3xl font-extrabold text-slate-900 tracking-tight">Ưu Điểm Chính Của Vaccine Tái Tổ Hợp</h2>
                 <div class="w-16 h-1 bg-tealmed-500 mx-auto mt-3 rounded-full"></div>
             </div>
@@ -373,7 +368,6 @@
             </div>
 
             <div class="relative border-l-2 border-tealmed-500 ml-4 md:ml-32 space-y-12">
-                <!-- Timeline 1 -->
                 <div class="relative pl-8 md:pl-12">
                     <div class="absolute -left-3 top-0 w-6 h-6 rounded-full bg-tealmed-500 text-white flex items-center justify-center text-xs font-bold">1</div>
                     <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm">
@@ -385,7 +379,6 @@
                     </div>
                 </div>
 
-                <!-- Timeline 2 -->
                 <div class="relative pl-8 md:pl-12">
                     <div class="absolute -left-3 top-0 w-6 h-6 rounded-full bg-medical-700 text-white flex items-center justify-center text-xs font-bold">2</div>
                     <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm">
@@ -397,7 +390,6 @@
                     </div>
                 </div>
 
-                <!-- Timeline 3 -->
                 <div class="relative pl-8 md:pl-12">
                     <div class="absolute -left-3 top-0 w-6 h-6 rounded-full bg-tealmed-500 text-white flex items-center justify-center text-xs font-bold">3</div>
                     <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm">
@@ -473,7 +465,6 @@
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-                <!-- Platform 1 -->
                 <div class="bg-slate-50 p-6 rounded-2xl border border-slate-200 flex flex-col justify-between hover:shadow-md transition">
                     <div>
                         <div class="w-10 h-10 rounded-xl bg-medical-100 text-medical-700 flex items-center justify-center text-lg font-bold mb-3">
@@ -487,7 +478,6 @@
                     <span class="text-[10px] font-bold text-tealmed-600 bg-white p-2 rounded border border-slate-200">Ví dụ: Engerix-B, Novavax, Shingrix</span>
                 </div>
 
-                <!-- Platform 2 -->
                 <div class="bg-slate-50 p-6 rounded-2xl border border-slate-200 flex flex-col justify-between hover:shadow-md transition">
                     <div>
                         <div class="w-10 h-10 rounded-xl bg-tealmed-50 text-tealmed-600 flex items-center justify-center text-lg font-bold mb-3">
@@ -501,7 +491,6 @@
                     <span class="text-[10px] font-bold text-tealmed-600 bg-white p-2 rounded border border-slate-200">Ví dụ: Gardasil 9 (HPV), Cervarix</span>
                 </div>
 
-                <!-- Platform 3 -->
                 <div class="bg-slate-50 p-6 rounded-2xl border border-slate-200 flex flex-col justify-between hover:shadow-md transition">
                     <div>
                         <div class="w-10 h-10 rounded-xl bg-sky-100 text-sky-700 flex items-center justify-center text-lg font-bold mb-3">
@@ -515,7 +504,6 @@
                     <span class="text-[10px] font-bold text-tealmed-600 bg-white p-2 rounded border border-slate-200">Ví dụ: AstraZeneca, J&J, Sputnik V</span>
                 </div>
 
-                <!-- Platform 4 -->
                 <div class="bg-slate-50 p-6 rounded-2xl border border-slate-200 flex flex-col justify-between hover:shadow-md transition">
                     <div>
                         <div class="w-10 h-10 rounded-xl bg-purple-100 text-purple-700 flex items-center justify-center text-lg font-bold mb-3">
@@ -651,19 +639,17 @@
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-                <!-- Case 1 -->
                 <div class="bg-slate-50 rounded-2xl overflow-hidden border border-slate-200 shadow-sm flex flex-col justify-between">
                     <img src="https://images.unsplash.com/photo-1584515979956-d9f6e5d09982?auto=format&fit=crop&w=800&q=80" alt="Engerix-B Hepatitis B Vaccine" class="w-full h-44 object-cover">
                     <div class="p-5 space-y-2 flex-1">
                         <span class="text-[10px] font-bold bg-tealmed-100 text-tealmed-800 px-2 py-0.5 rounded">Engerix-B / Recombivax HB</span>
                         <h3 class="font-bold text-slate-900 text-sm">Vaccine Viêm Gan B Tái Tổ Hợp</h3>
                         <p class="text-xs text-slate-600 leading-relaxed">
-                            Vaccine tái tổ hợp được sử dụng lâm sàng sớm nhất, thay thế vaccine huyết tương trước đây, giải quyết triệt để vấn đề an toàn nguồn nguyên liệu. Biểu hiện gen HBsAg trong tế bào nấm men <i>S. cerevisiae</i>.
+                            Vaccine tái tổ hợp được sử dụng lâm sàng sớm nhất, thay thế vaccine huyết tương trước đây, giải quyết triệt để vấn đề an toàn nguồn nguyên liệu.
                         </p>
                     </div>
                 </div>
 
-                <!-- Case 2 -->
                 <div class="bg-slate-50 rounded-2xl overflow-hidden border border-slate-200 shadow-sm flex flex-col justify-between">
                     <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&w=800&q=80" alt="Gardasil 9 HPV Vaccine" class="w-full h-44 object-cover">
                     <div class="p-5 space-y-2 flex-1">
@@ -675,7 +661,6 @@
                     </div>
                 </div>
 
-                <!-- Case 3 -->
                 <div class="bg-slate-50 rounded-2xl overflow-hidden border border-slate-200 shadow-sm flex flex-col justify-between">
                     <img src="https://images.unsplash.com/photo-1584036561566-baf8f5f1b144?auto=format&fit=crop&w=800&q=80" alt="Novavax Covid-19" class="w-full h-44 object-cover">
                     <div class="p-5 space-y-2 flex-1">
@@ -687,7 +672,6 @@
                     </div>
                 </div>
 
-                <!-- Case 4 -->
                 <div class="bg-slate-50 rounded-2xl overflow-hidden border border-slate-200 shadow-sm flex flex-col justify-between">
                     <img src="https://images.unsplash.com/photo-1579154204601-01588f351e67?auto=format&fit=crop&w=800&q=80" alt="Shingrix and Emerging Vaccines" class="w-full h-44 object-cover">
                     <div class="p-5 space-y-2 flex-1">
@@ -702,61 +686,29 @@
         </div>
     </section>
 
-    <!-- BỔ SUNG CHƯƠNG NỔI BẬT: Chương 10 - Hạn Chế Và Thách Thức -->
-    <section id="han-che-thach-thuc" class="py-20 bg-slate-50">
+    <!-- Chương 10: Hạn Chế Và Thách Thức -->
+    <section id="thach-thuc" class="py-20 bg-slate-50">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center max-w-3xl mx-auto mb-16">
-                <span class="text-xs font-black text-tealmed-600 uppercase tracking-widest block mb-1">Chương X (Bổ Sung)</span>
-                <h2 class="text-3xl font-extrabold text-slate-900 tracking-tight">Hạn Chế & Thách Thức Kỹ Thuật</h2>
-                <div class="w-16 h-1 bg-tealmed-500 mx-auto mt-3 rounded-full"></div>
-            </div>
-
-            <div class="bg-amber-50/60 rounded-2xl p-8 border border-amber-200 grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-                <div class="space-y-4 text-xs sm:text-sm text-slate-700 leading-relaxed">
-                    <h3 class="text-lg font-bold text-amber-900 flex items-center gap-2">
-                        <i class="fa-solid fa-triangle-exclamation text-amber-600"></i>
-                        <span>Các Thách Thức Cốt Lõi Cần Vượt Qua:</span>
-                    </h3>
-                    <ul class="space-y-3 list-disc list-inside">
-                        <li>
-                            <strong>Tính sinh miễn dịch tương đối yếu:</strong> Vaccine protein tái tổ hợp thường có tính sinh miễn dịch tương đối yếu, thường cần kết hợp với <strong>tá dược mạnh</strong> (như tá dược dựa trên saponin Matrix-M) hoặc thiết kế thành dạng hạt nano để tăng cường phản ứng miễn dịch.
-                        </li>
-                        <li>
-                            <strong>Chi phí & Chu kỳ sản xuất:</strong> Quá trình biểu hiện và tinh chế protein phức tạp, chi phí sản xuất và chu kỳ phát triển có thể cao hơn các nền tảng mới như mRNA trong một số trường hợp nhất định.
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="rounded-xl overflow-hidden shadow-md border border-amber-200">
-                    <img src="https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?auto=format&fit=crop&w=800&q=80" alt="Technical Challenges" class="w-full h-56 object-cover">
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Chương 10 gốc (nay là Chương XI): Thách Thức Kỹ Thuật & Xu Hướng AI -->
-    <section id="thach-thuc" class="py-20 bg-white">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="text-center max-w-3xl mx-auto mb-16">
-                <span class="text-xs font-black text-tealmed-600 uppercase tracking-widest block mb-1">Chương XI</span>
-                <h2 class="text-3xl font-extrabold text-slate-900 tracking-tight">Thách Thức Kỹ Thuật & Xu Hướng Tương Lai AI</h2>
+                <span class="text-xs font-black text-tealmed-600 uppercase tracking-widest block mb-1">Chương X</span>
+                <h2 class="text-3xl font-extrabold text-slate-900 tracking-tight">Hạn Chế, Thách Thức & Xu Hướng AI</h2>
                 <div class="w-16 h-1 bg-tealmed-500 mx-auto mt-3 rounded-full"></div>
             </div>
 
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8 text-xs sm:text-sm">
-                <div class="bg-slate-50 p-6 rounded-2xl border border-slate-200 shadow-sm space-y-3">
+                <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm space-y-3">
                     <h3 class="font-bold text-slate-900 text-base flex items-center gap-2">
                         <i class="fa-solid fa-triangle-exclamation text-amber-500"></i>
-                        <span>Thách Thức Kỹ Thuật Cần Vượt Qua</span>
+                        <span>Thách Thức Kỹ Thuật & Miễn Dịch</span>
                     </h3>
                     <ul class="space-y-2 text-slate-600 list-disc list-inside leading-relaxed">
-                        <li><strong>Biến đổi sau dịch mã (PTM):</strong> Vi khuẩn thiếu hệ thống Glycosyl hóa khiến protein cuộn gập sai cấu trúc.</li>
-                        <li><strong>Chi phí tối ưu dòng clone:</strong> Lựa chọn tế bào CHO năng suất cao tốn nhiều thời gian và chi phí R&D.</li>
-                        <li><strong>Tạo đáp ứng tế bào CD8+:</strong> Cần các hệ thống tá dược phức tạp (AS01B) để kích hoạt con đường MHC Class I.</li>
+                        <li><strong>Tính sinh miễn dịch tương đối yếu:</strong> Thường cần kết hợp với tá dược mạnh (như Matrix-M) hoặc thiết kế hạt nano.</li>
+                        <li><strong>Biến đổi sau dịch mã (PTM):</strong> Vi khuẩn thiếu hệ thống Glycosyl hóa khiến protein dễ cuộn gập sai cấu trúc.</li>
+                        <li><strong>Chi phí & Chu kỳ sản xuất:</strong> Quy trình biểu hiện và tinh chế protein phức tạp, chi phí R&D và sản xuất có thể cao trong một số trường hợp.</li>
                     </ul>
                 </div>
 
-                <div class="bg-slate-50 p-6 rounded-2xl border border-slate-200 shadow-sm space-y-3">
+                <div class="bg-white p-6 rounded-2xl border border-slate-200 shadow-sm space-y-3">
                     <h3 class="font-bold text-slate-900 text-base flex items-center gap-2">
                         <i class="fa-solid fa-robot text-tealmed-600"></i>
                         <span>Xu Hướng AI & Công Nghệ Mới</span>
@@ -775,7 +727,7 @@
     <section id="trac-nghiem" class="py-20 bg-slate-100">
         <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-12">
-                <span class="text-xs font-black text-tealmed-600 uppercase tracking-widest block mb-1">Chương XII - Trắc Nghiệm Kiến Thức</span>
+                <span class="text-xs font-black text-tealmed-600 uppercase tracking-widest block mb-1">Chương XI - Trắc Nghiệm Kiến Thức</span>
                 <h2 class="text-3xl font-extrabold text-slate-900">Bài Trắc Nghiệm Tương Tác 15 Câu</h2>
                 <p class="text-slate-600 text-xs sm:text-sm mt-2">
                     <span class="font-bold text-tealmed-600">Câu 1-7:</span> Mức độ Dễ đến Vừa &nbsp;|&nbsp; 
@@ -808,7 +760,6 @@
 
     <!-- JavaScript Logic -->
     <script>
-        // Scroll Progress Indicator
         window.onscroll = function() {
             const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
             const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
@@ -816,13 +767,11 @@
             document.getElementById("scroll-progress").style.width = scrolled + "%";
         };
 
-        // Mobile Nav Toggle
         function toggleMobileMenu() {
             const menu = document.getElementById('mobile-menu');
             menu.classList.toggle('hidden');
         }
 
-        // --- 6-STEP PROCESS DATA & LOGIC ---
         const processStepsData = {
             1: {
                 title: "Bước 1: Tách Chiết & Phân Lập Gen Đích (Gene Isolation)",
@@ -915,10 +864,8 @@
             `;
         }
 
-        // Initial setup for step 1
         selectProcessStep(1);
 
-        // --- 15-QUESTION QUIZ DATA (7 EASY/MEDIUM, 8 HARD - ALL EQUAL LENGTH OPTIONS) ---
         const quizData = [
             {
                 question: "1. [Mức Dễ] Định nghĩa nào mô tả chính xác bản chất của công nghệ vaccine tái tổ hợp?",
@@ -940,7 +887,7 @@
                     "D. Có khả năng chữa khỏi lập tức các bệnh mạn tính di truyền."
                 ],
                 correct: 0,
-                explanation: "Ưu điểm cốt lõi của công nghệ này là hoàn toàn không cần nuôi cấy toàn bộ mầm bệnh, do đó loại bỏ hoàn toàn nguy cơ nhiễm bệnh do vaccine và nhanh chóng sản xuất kháng nguyên tinh khiết quy mô lớn."
+                explanation: "Ưu điểm cốt lõi của công nghệ này là hoàn toàn không cần nuôi cấy toàn bộ mầm bệnh, do đó loại bỏ nguy cơ nhiễm bệnh do vaccine và nhanh chóng sản xuất kháng nguyên tinh khiết."
             },
             {
                 question: "3. [Mức Dễ] Vaccine tái tổ hợp đầu tiên được sử dụng quy mô lớn trên toàn cầu là vắc-xin nào?",
@@ -995,7 +942,7 @@
                     "D. Do E. coli không thể sống trong bình lên men."
                 ],
                 correct: 0,
-                explanation: "Vi khuẩn E. coli ít được dùng trực tiếp sản xuất vaccine thành phẩm phức tạp vì thiếu quá trình biến đổi sau dịch mã (glycosyl hóa), dù nó rất mạnh trong sản xuất protein đơn giản hoặc làm vector."
+                explanation: "Vi khuẩn E. coli ít được dùng trực tiếp sản xuất vaccine thành phẩm vì thiếu quá trình biến đổi glycosyl hóa, dù nó rất mạnh trong sản xuất protein đơn giản hoặc làm vector."
             },
             {
                 question: "8. [Mức Khó] Tại sao vaccine tái tổ hợp thường phải kết hợp với các tá dược mạnh như Matrix-M?",
@@ -1006,7 +953,7 @@
                     "D. Do tá dược giúp vắc-xin tăng dung tích trong lọ."
                 ],
                 correct: 0,
-                explanation: "Do protein tái tổ hợp có độ tinh khiết rất cao và không chứa thành phần mầm bệnh nên tính sinh miễn dịch tự nhiên tương đối yếu, bắt buộc phải dùng tá dược mạnh (như Matrix-M) để kích hoạt đáp ứng miễn dịch mạnh mẽ."
+                explanation: "Do protein tái tổ hợp có độ tinh khiết rất cao nên tính sinh miễn dịch tương đối yếu, bắt buộc phải dùng tá dược mạnh (như Matrix-M) để tăng cường phản ứng miễn dịch."
             },
             {
                 question: "9. [Mức Khó] Trong thử nghiệm lâm sàng giai đoạn III đối với chủng virus ban đầu, vaccine Novavax đạt hiệu quả bao nhiêu?",
@@ -1017,7 +964,7 @@
                     "D. Đạt hiệu quả tuyệt đối 100%."
                 ],
                 correct: 2,
-                explanation: "Vaccine tái tổ hợp Novavax (NVX-CoV2373) đạt hiệu quả khoảng 90% trong thử nghiệm lâm sàng giai đoạn III đối với chủng virus ban đầu và có hiệu quả bảo vệ tốt trước các biến thể."
+                explanation: "Vaccine tái tổ hợp Novavax (NVX-CoV2373) đạt hiệu quả trong thử nghiệm lâm sàng giai đoạn III đối với chủng virus ban đầu đạt khoảng 90%."
             },
             {
                 question: "10. [Mức Khó] Công nghệ Hạt virus giả (Virus-Like Particles - VLP) trong vaccine HPV có đặc tính sinh học gì?",
@@ -1028,7 +975,7 @@
                     "D. Chứa mảnh ADN tái tổ hợp của virus cúm mùa."
                 ],
                 correct: 1,
-                explanation: "Công nghệ VLP tạo ra các vỏ protein tự ngưng kết mô phỏng chính xác hình thái 3D của virus thật nhưng hoàn toàn 'rỗng ruột' (không chứa vật liệu di truyền ADN/RNA), giúp kích thích miễn dịch mạnh mà tuyệt đối an toàn."
+                explanation: "Công nghệ VLP tạo ra các vỏ protein tự ngưng kết mô phỏng chính xác hình thái 3D của virus thật nhưng hoàn toàn 'rỗng ruột' (không chứa vật liệu di truyền ADN/RNA)."
             },
             {
                 question: "11. [Mức Khó] Việc chuyển từ vắc-xin huyết tương sang vắc-xin Viêm gan B tái tổ hợp đã giải quyết triệt để vấn đề gì?",
@@ -1039,7 +986,7 @@
                     "D. Loại bỏ hoàn toàn yêu cầu bảo quản lạnh."
                 ],
                 correct: 0,
-                explanation: "Vaccine Viêm gan B tái tổ hợp thay thế vắc-xin tách chiết từ huyết thanh người bệnh trước đây, giải quyết triệt để vấn đề an toàn nguồn nguyên liệu và nguy cơ lây nhiễm các bệnh truyền qua đường máu."
+                explanation: "Vaccine Viêm gan B tái tổ hợp thay thế vắc-xin huyết tương trước đây, giải quyết triệt để vấn đề an toàn nguồn nguyên liệu."
             },
             {
                 question: "12. [Mức Khó] Ngoài COVID-19 và HPV, công nghệ tái tổ hợp đang được ứng dụng phát triển vaccine sốt rét nào?",
@@ -1050,18 +997,18 @@
                     "D. BCG và vaccine Chân tay miệng."
                 ],
                 correct: 0,
-                explanation: "Các vắc-xin sốt rét tái tổ hợp thế hệ mới nổi tiếng nhất hiện nay là RTS,S/AS01 và R21/Matrix-M, giúp mở ra bước ngoặt trong phòng chống bệnh sốt rét toàn cầu."
+                explanation: "Công nghệ tái tổ hợp đang được sử dụng để phát triển vaccine sốt rét như RTS,S/AS01 và R21/Matrix-M."
             },
             {
                 question: "13. [Mức Khó] Thách thức nào về chi phí và chu kỳ phát triển thường gặp ở vaccine protein tái tổ hợp?",
                 options: [
-                    "A. Quy trình tinh chế phức tạp làm chi phí cao hơn.",
+                    "A. Quy trình biểu hiện và tinh chế protein phức tạp.",
                     "B. Phải mua mầm bệnh sống với giá rất đắt đỏ.",
                     "C. Tốn chi phí hủy bỏ vắc-xin do rò rỉ độc lực.",
                     "D. Chi phí vận chuyển đông sâu -80°C quá lớn."
                 ],
                 correct: 0,
-                explanation: "Do quá trình biểu hiện và tinh chế protein phức tạp (đòi hỏi hệ thống sắc ký và kiểm soát cuộn gập cấu trúc khắt khe), chi phí sản xuất và chu kỳ phát triển có thể cao hơn một số nền tảng mới như mRNA."
+                explanation: "Quá trình biểu hiện và tinh chế protein phức tạp, chi phí sản xuất và chu kỳ phát triển có thể cao hơn trong một số trường hợp nhất định."
             },
             {
                 question: "14. [Mức Khó] Hệ thống biểu hiện Nấm men (Saccharomyces cerevisiae) có ưu điểm nổi bật nào trong sản xuất?",
@@ -1072,18 +1019,18 @@
                     "D. Tự động tiêu diệt mọi loại vi khuẩn xâm nhập."
                 ],
                 correct: 0,
-                explanation: "Nấm men là hệ thống sinh vật nhân thực đơn bào, dễ nuôi cấy lên men quy mô lớn và có khả năng thực hiện các biến đổi sau dịch mã (PTM) cơ bản cho protein."
+                explanation: "Nấm men S. cerevisiae là hệ thống biểu hiện sinh học phổ biến, là nền tảng cho vaccine viêm gan B đầu tiên trên toàn cầu."
             },
             {
-                question: "15. [Mức Khó] Tại sao vaccine tái tổ hợp lại được đánh giá là con đường duy nhất cho các mầm bệnh khó nuôi cấy?",
+                question: "15. [Mức Khó] Tại sao vaccine tái tổ hợp lại được đánh giá là con đường khả thi cho các mầm bệnh khó nuôi cấy?",
                 options: [
-                    "A. Vì chỉ cần gen mã hóa, không cần nhân mầm bệnh.",
+                    "A. Vì chỉ cần gen mã hóa, không cần nhân toàn bộ mầm bệnh.",
                     "B. Vì nó cho phép tiêm trực tiếp gen vào cơ thể.",
                     "C. Vì vắc-xin có thể tự tổng hợp trong môi trường khan.",
                     "D. Vì mầm bệnh tự tiêu biến khi gặp tế bào chủ."
                 ],
                 correct: 0,
-                explanation: "Đối với các mầm bệnh khó hoặc không thể nuôi cấy số lượng lớn trong phòng thí nghiệm (HBV, HPV), công nghệ tái tổ hợp chỉ cần giải mã chuỗi gen để đưa vào tế bào chủ tổng hợp kháng nguyên, tạo ra con đường sản xuất khả thi duy nhất."
+                explanation: "Công nghệ tái tổ hợp không yêu cầu nuôi cấy toàn bộ mầm bệnh nguy hiểm mà chỉ cần tách gen mã hóa kháng nguyên để tổng hợp trong tế bào chủ an toàn."
             }
         ];
 
@@ -1212,7 +1159,6 @@
             renderQuizCard();
         }
 
-        // Initialize Quiz
         renderQuizCard();
     </script>
 </body>
